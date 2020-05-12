@@ -1,0 +1,66 @@
+''Przewidywany czas
+
+10-15 minut
+Poziom trudności
+
+Łatwy
+Cele
+
+    używanie instrukcji continue w pętlach;
+    odzwierciedlanie rzeczywistych sytuacji w kodzie komputerowym.
+
+Scenariusz
+
+Instrukcja continue służy do pomijania bieżącego bloku i przejścia do następnej iteracji, bez wykonywania instrukcji wewnątrz pętli.
+
+Może być używana zarówno z petlą while jak i z pętlą for.
+
+Twoje zadanie tym razem jest bardzo szczególne: musisz zaprojektować brzydkiego zjadacza samogłosek! Napisz program, który wykorzystuje:
+
+    pętlę for;
+    koncepcję warunkowego wykonywania (if-elif-else)
+    instrukcję continue.
+
+Twój program musi:
+
+    poprosić użytkownika o wpisanie słowa;
+    użyć metody upper() (tzn. slowo_uzytkownika = slowo_uzytkownika.upper()) do zamiany słowa wprowadzonego przez użytkownika na słowo pisane wielkimi literami; porozmawiamy o tak zwanych metodach klasy string (ang. string methods) oraz metodzie upper() niedługo, nie przejmuj się tym na razie;
+    wykorzystać koncepcję wykonywania warunkowego i instrukcję continue do "zjedzenia" następujących samogłosek A, E, I, O, U z wprowadzonego przez użytkownika słowa;
+    wyświetlić niezjedzone litery na ekranie - każdą z nich w osobnej linii.
+
+Sprawdź swój program za pomocą danych testowych, które dla ciebie przygotowaliśmy.
+
+Dane testowe
+
+Przykładowe dane wejściowe: Grzegorz
+
+Oczekiwany wynik:
+G
+R
+Z
+G
+R
+Z
+
+Przykładowe dane wejściowe: anatomia
+
+Oczekiwany wynik:
+N
+T
+M
+
+Przykładowe dane wejściowe: IOUEA
+
+Oczekiwany wynik:
+ 
+ 
+ 
+ 
+ rozwiazanie:
+ 
+ # Poproś użytkownika o wprowadzenie słowa
+# i przypisz je do zmiennej slowo_uzytkownika
+
+
+# Uzupełnij pętlę for poniżej:
+for litera in slowo_uzytkownika:
