@@ -1,0 +1,77 @@
+ LABORATORIUM
+
+Przewidywany czas
+
+5-10 minut
+Poziom trudności
+
+Łatwy
+Cele
+
+    używanie instrukcji continue w pętlach;
+    modyfikowanie i ulepszanie istniejącego kodu;
+    odzwierciedlanie rzeczywistych sytuacji w kodzie komputerowym.
+
+Scenariusz
+
+Twoje zadanie tutaj jest jeszcze bardziej wyjątkowe niż wcześniej: musisz przeprojektować (brzydkiego) zjadacza samogłosek z poprzedniego laboratorium (3.1.2.10) i stworzyć lepszego (pięknego) zjadacza! Napisz program, który używa:
+
+    pętli for;
+    koncepcję warunkowego wykonywania (if-elif-else)
+    instrukcję continue.
+
+Twój program musi:
+
+    poprosić użytkownika o podanie słowa;
+    użyć metodę upper() (tzn. slowo_uzytkownika = slowo_uzytkownika.upper() do zamiany słowa wprowadzonego przez użytkownika na słowo pisane wielkimi literami; i ponownie, porozmawiamy o metodach klasy string (ang. string methods) i metodzie upper() w następnych lekcjach, nie przejmuj się, że jeszcze nie rozumiesz wszystkiego;
+    zastosować koncepcję wykonywania warunkowego i instrukcję continue do "zjedzenia" następujących samogłosek A, E, I, O, U z wprowadzonego przez użytkownika słowa;
+    przyporządkować niezjedzone litery do zmiennej slowo_bez_samoglosek i wyświetlic ją w konsoli.
+
+Tymczasem spójrz na kod w edytorze. Stworzyliśmy zmienną slowo_bez_samoglosek i przypisaliśmy do niej pusty ciąg znaków. Użyj konkatenacji, aby poprosić Pythona o połączenie wybranych liter w dłuższy ciąg znaków podczas kolejnych wykonań pętli, a następnie o przypisanie ich do zmiennej slowo_bez_samoglosek. Nowe słowo niezawierające samogłosek powinno być wyświetlone w jednej linii.
+
+Sprawdź swój program za pomocą danych testowych, które dla ciebie przygotowaliśmy.
+
+Dane testowe
+
+Przykładowe dane wejściowe: Grzegorz
+
+Oczekiwany wynik:
+GRZGRZ
+
+Przykładowe dane wejściowe: anatomia
+
+Oczekiwany wynik:
+NTM
+
+Przykładowe dane wejściowe: IOUEA
+
+Oczekiwany wynik:
+ 
+
+    Sandbox
+
+Code
+slowo_bez_samoglosek = ""
+
+# Poproś użytkownika o wprowadzenie słowa
+# i przypisz je do zmiennej slowo_uzytkownika.
+
+
+# Uzupełnij pętlę for poniżej.
+for litera in slowo_uzytkownika:
+
+    Console
+
+Prev Next
+We
+
+rozwiazanie:
+
+slowo_bez_samoglosek = ""
+
+# Poproś użytkownika o wprowadzenie słowa
+# i przypisz je do zmiennej slowo_uzytkownika.
+
+
+# Uzupełnij pętlę for poniżej.
+for litera in slowo_uzytkownika:
