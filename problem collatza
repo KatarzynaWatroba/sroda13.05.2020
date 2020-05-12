@@ -1,0 +1,130 @@
+ LABORATORIUM
+
+Przewidywany czas
+
+20 minut
+Poziom trudności
+
+Średni
+Cele
+
+    używanie pętli while,
+    przekształcanie zdefiniowanych reguł dot. pętli w rzeczywisty kod Pythona.
+
+Scenariusz
+
+W 1937 r. niemiecki matematyk Lothar Collatz sformułował intrygującą hipotezę (wciąż pozostaje nieudowodniona), którą można opisać w następujący sposób:
+
+    weź dowolną nieujemną i niezerową liczbę całkowitą i nadaj jej nazwę c0;
+    jeżeli jest parzysta oblicz nową wartość dla c0 równą c0 ÷ 2;
+    w przeciwnym razie, jeżeli liczba jest nieparzysta, oblicz nową wartość dla c0 równą 3 × c0 + 1;
+    jeżeli c0 ≠ 1, przeskocz do punktu 2.
+
+Hipoteza mówi, że niezależnie od początkowej wartości c0, wynik zawsze dąży do wartości 1.
+
+Oczywiście niezwykle skomplikowanym zadaniem jest użycie komputera w celu udowodnienia tej hipotezy dla dowolnej liczby naturalnej (może to wymagać nawet pomocy sztucznej inteligencji), ale możesz użyć Pythona do sprawdzenia poszczególnych liczb. Może znajdziesz nawet taką liczbę, która obaliłaby powyższą hipotezę!
+
+Napisz program, który czyta jedną liczbę naturalną i wykonuje powyższe kroki tak długo jak c0 pozostaje inny niż 1. Chcemy również, abyś policzył kroki potrzebne do osiągnięcia celu. Twój kod powinien wypisać wszystkie pośrednie wartości c0.
+
+Podpowiedź: najważniejszą częścią problemu jest przekształcenie pomysłu Collatza w pętlę while - to jest klucz do sukcesu.
+
+Przetestuj swój kod, korzystając z danych, które dostarczyliśmy.
+Dane testowe
+
+Przykładowe dane wejściowe: 15
+
+Oczekiwany wynik:
+46
+23
+70
+35
+106
+53
+160
+80
+40
+20
+10
+5
+16
+8
+4
+2
+1
+liczba kroków = 17
+
+Przykładowe dane wejściowe: 16
+
+Oczekiwany wynik:
+8
+4
+2
+1
+liczba kroków = 4
+
+Przykładowe dane wejściowe: 1023
+
+Oczekiwany wynik:
+3070
+1535
+4606
+2303
+6910
+3455
+10366
+5183
+15550
+7775
+23326
+11663
+34990
+17495
+52486
+26243
+78730
+39365
+118096
+59048
+29524
+14762
+7381
+22144
+11072
+5536
+2768
+1384
+692
+346
+173
+520
+260
+130
+65
+196
+98
+49
+148
+74
+37
+112
+56
+28
+14
+7
+22
+11
+34
+17
+52
+26
+13
+40
+20
+10
+5
+16
+8
+4
+2
+1
+
